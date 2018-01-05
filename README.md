@@ -13,12 +13,19 @@ Program #2 – Building a Hierarchy using Dynamic Binding
 For your second program, you will be creating a C++ OOP solution to support at least four different ways that the user can receive communication (e.g., email, text, and two others of your choice).
 
 The purpose of this assignment is to use and experience dynamic binding. The requirement for this application is to have at least four DIFFERENT forms of communication supported, derived from a common abstract base class! To use dynamic binding, there needs to be a self-similar interface among the derived class methods. In this case, for all types of communication that you support, the user would like to read a message, send a message, delete a message, and so on. In the real world, there will be some differences as well, although there shouldn’t be too many. For example, if you elect to support USMail, then there needs to be postage applied that makes no sense for the other forms of communication. Make sure to find at least one method that is different so that you can experience how to resolve such differences.
+
 Program #2 – Data Structure Requirements
+
 With program #2, our data structure should be of POINTERS to the ABSTRACT base class and then with upcasting cause each node to point to the appropriate type of communication. Implementation of the required data structure(s) requires full support of insert, removal, display, retrieval, and remove-all. Efficiency must be part of your data structure design.
+
 You will need to implement data structures for:
+
 1. Address Book – A binary search tree (BST) of contact information needed by the different forms of communication, organized by last name. For all data that matches (so everyone with the same last name), create a dynamically allocated array in the node for each. This means that each node will have unique data (e.g., “Smith” will not appear more than once in the BST).
+
 2. Types of Communication – A circular linked list of abstract base class pointers pointing to the different objects that represent the user’s forms of communication. For example, the user may have 5 email addresses, 1 facebook account, and 2 phones (one that can accept text messages).
+
 Program #2 – Important C++ Syntax
+
 Remember to support the following constructs as necessary:
 1. Every class should have a default constructor
 2. Every class that manages dynamic memory must have a destructor
