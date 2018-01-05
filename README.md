@@ -1,6 +1,7 @@
 # cs202_Program2
 
-Program #2 – Purpose
+Program #2
+CS 202 Programming Systems
 
 In our first programming assignment, we experimented with the notion of OOP and breaking the problem down into multiple classes building a relatively large system for a maze-game. The purpose of that assignment was to get to know how we can create classes that have different relationships. In program #2 our focus shifts to getting experience developing a hierarchy that can be used with dynamic binding – so that the application program can use one line of code to call one of many functions. To get the full benefit of dynamic binding, we will look at a smaller problem with a predefined design.
 
